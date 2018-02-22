@@ -1,0 +1,28 @@
+{
+    "name": "revolution/laravel-logger-chatwork",
+    "description": "ChatWork channel for Laravel Log",
+    "keywords": [
+        "chatwork",
+        "log",
+        "laravel"
+    ],
+    "type": "library",
+    "require": {
+        "php": ">=7.1.3",
+        "guzzlehttp/guzzle": "^6.3",
+        "illuminate/support": "^5.6",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+        "psr-4": {
+            "Revolution\\Laravel\\Logger\\ChatWork\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kawax",
+            "email": "kawaxbiz@gmail.com"
+        }
+    ]
+}
