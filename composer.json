@@ -24,5 +24,8 @@
             "name": "kawax",
             "email": "kawaxbiz@gmail.com"
         }
-    ]
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
 }
